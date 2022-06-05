@@ -1,0 +1,1169 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Poppins;
+  text-decoration:none;
+}
+
+svg{
+  margin: 0;
+  padding: 0;
+}
+
+.project{
+  margin-bottom: .5rem;
+}
+
+.abt-me-a{
+  margin-top: 1rem;
+}
+
+.modal-content a:hover, .modal-content a:active{
+background-color: rgb(255, 238, 0);
+color: white;
+font-weight: bolder;
+}
+
+a:link{color: black;}
+.svg-div div{
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: inline-flex;
+  margin: auto;
+}
+.svg div{
+  margin: auto;
+  width: auto;
+  display:inline;
+  flex-direction: row;
+}
+
+.svg-div{
+  margin: 5vw;
+  width:90;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.svg-div div h4{
+  display:inline-flex;
+  margin-block-end: none;
+  margin-block-end: none;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+.svg-div img{
+  width: 15vw;
+  height: auto;
+  border-color:silver;
+  border-width: 2px;
+  display: inline;
+  padding:1rem;
+  margin: 1rem;
+}
+
+.cred > a {
+  border-radius: 3rem;
+  padding: .5rem 1rem;
+  background-color: rgb(255, 238, 0);
+}
+.cred > a :hover{
+  background-color: rgba(0,0,0,0.4);
+}
+.cursors .ball {
+  width: 2rem;
+  height: 2rem;
+  background-color: rgb(255, 238, 0);
+  border-radius: 50%;
+  position: absolute;
+  opacity: 5%;
+  z-index: 10001;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+}
+
+a:hover .tooltiptext {
+  visibility: visible;
+}
+
+.Design :nth-child(3){
+  margin-top: 1rem;
+}
+
+/* a .tooltiptext {
+  visibility: hidden;
+  text-align: center;
+  bottom: 75%;
+  left: 50%;
+  opacity: 80%;
+  font-size: bold;
+  margin-left: -60px;
+  background-color: rgb(255, 238, 0);
+  color: black;
+  padding:1rem;
+  text-align: center;
+  border-radius: 1rem; */
+ 
+  /* Position the tooltip text - see examples below! */
+  /* position: absolute;
+  z-index: 1;
+} */
+.intro{
+  margin-top: 4rem;
+}
+
+.intro2{
+  margin-bottom: 1.5rem;
+}
+
+.intro3, .intro4, .typing > h4{
+  display: inline-flex;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  padding-right: .8rem;
+}
+.typing > h4 {
+  color:rgb(255, 217, 0)
+}
+
+.Nav a, .mobile-nav-menu, .modal-content a{
+  padding: 1rem;
+  transition: .3s;
+}
+
+.Nav a:hover, .Nav a:active, .mobileNav a:hover, .mobileNav a:active, .mobileNav .mobile-nav-menu:hover, .mobileNav .mobile-nav-menu:active{
+  background-color: rgb(255, 217, 0, 1);
+  color: white;
+  border-radius: none;
+  font-weight:bolder;
+}
+
+.misc * :hover{ 
+  fill:rgb(255, 217, 0);
+}
+
+.misc {
+  fill:black;
+}
+.cred >a:hover, .cred >a:active{
+  background-color: rgb(0, 0, 0);
+  color:rgb(255, 217, 0)
+}
+.typing{
+  display:inline-flex;
+}
+
+.content2{
+  margin-top: 2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.content2 a {
+  background-color: rgb(255, 238, 0);
+  padding: .5rem 1rem;
+  border-radius: 5rem;
+  transition: .3s;
+}
+
+.content2 a:hover, .content2 a:active{
+  transition: .3s;
+  background-color: rgb(0, 0, 0);
+  color:rgb(255, 217, 0)
+}
+
+.content2 a{
+  margin-right: 1rem;
+}
+.summary{
+  display: inline;
+  margin-bottom: 1rem;
+  width: clamp(20vw 35vw 40vw);
+}
+
+.header-me{
+  margin-bottom: .5rem;
+  display:inline-flex;
+}
+.header-search {
+  border-color:rgb(20, 10, 0);
+  transition: 3s;
+  width: 100px;
+}
+
+.Nav, .mobileNav{
+  position:sticky;
+  top: 0;
+  z-index: 100;
+}
+.header-search:hover, .header-search:focus {
+  border: 1.5px solid #000000;
+  background-color: white;
+}
+
+.devops-div, .database-div{
+  display: block;
+}
+.profilepic, .contactpic{
+  border-radius: .5rem;
+}
+.intro, .intro2, .intro3, .intro4 {
+  border: 1rem;
+}
+
+.Nav, .modalNav, .mobileNav{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  background-color:rgb(255, 238, 0);
+  color: block;
+}
+.modalNav{
+  flex-direction: column;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(0, 0, 0);
+}
+
+.svg-div h4{
+  display:inline;
+}
+
+ul{
+  display:inline-flex;
+}
+
+.nav-home, .mobile-nav-home, .modal-home{
+  font-weight: 600;
+}
+
+.mobile-nav-home{
+  padding: 1rem;
+}
+
+.modal-trio{
+  color:block;
+}
+
+.nav-quad{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+/* MODAL */
+/* The Modal (background) */
+.modal {
+  display: block;
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.styles_typicalWrapper__1_Uvh::after{
+  color:black;
+  font-weight:normal;
+}
+
+form{
+  display: inline-flex;
+  flex-direction: column;
+}
+.myTools{
+  font-size: 1.8rem;
+  margin: auto;
+  width:auto;
+  margin-bottom: .5rem;
+  margin-top: 2rem;
+  display: block;
+  text-align: center;
+}
+
+.content3{
+  margin-bottom: .5rem;
+  margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.content3 label, .content3 button{
+  padding:.5rem 0;
+}
+
+.content3 label{
+  font-weight: bolder;
+}
+
+.content3 > h2{
+  font-size: 3rem;
+}
+
+.content3 >:nth-child(2){
+  margin-bottom: 1rem;
+}
+
+.content3 textarea{
+  display:block;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+._autoresponse{
+  display:none;
+}
+.honey{
+  display:none;
+}
+.content3 a{
+  padding: .5rem 1rem;
+  background-color:rgb(255, 238, 0);
+  color:black;
+  margin: 1rem;
+  border-radius: 5rem;
+}
+
+.content3 a:hover{
+  padding: .5rem 1rem;
+  background-color:black;
+  color:rgb(255, 217, 0);
+  margin: 1rem;
+  border-radius: 5rem;
+}
+.content3 button{
+  padding: .5rem 1rem;
+  background-color:rgb(255, 238, 0);
+  color:black;
+  margin: auto;
+  margin-top: 1rem;
+  border-radius: 5rem;
+  display: inline-block;
+}
+.NotFound{
+background-color: rgb(255, 255, 255);
+color: black;
+display: block;
+justify-content: center;
+text-align: center;
+margin:auto;
+}
+.NotFound h1{
+  margin:5vh;
+  font-size: 2rem;
+}
+.NotFound img{
+  margin-bottom: 5vh;
+}
+.NotFound a{
+  margin: .5rem;
+  padding: .5rem 1rem;
+  background-color:rgb(255, 238, 0);
+  border-radius: 4rem;
+  margin-top: 2rem;
+}
+.notfound{
+margin:auto;
+justify-content: center;
+display: block;
+max-width: 300px;
+min-width: 40vw;
+height: auto;
+}
+.SecondNav{
+  background-color:rgb(255, 238, 0);
+  display: inline-block;
+}
+
+.content3 button:hover{
+  padding: .5rem 1rem;
+  background-color:black;
+  color:rgb(255, 217, 0);
+  margin-top: 1rem;
+  border-radius: 5rem;
+  display: inline-block;
+}
+
+.honey, ._autoresponse {
+  display:none;
+}
+
+.form-control{
+  padding: 10px;
+}
+
+.text-div > button {
+  padding: .5rem 1rem;
+  background-color:rgb(255, 238, 0);
+  color:black;
+  margin: 1rem;
+  border-radius: 5rem;
+}
+
+
+.modal-about-me, .modal-coding, .modal-design, .modal-contact, .modal-home{
+  display: block;
+  margin:auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.modal-about-me :hover, .modal-coding :hover, .modal-design :hover, .modal-contact :hover, .modal-home :hover{
+  background-color: rgb(255, 238, 0);
+}
+
+.fixed-top {
+  position: sticky;
+  z-index: 3;
+  top: 5;
+}
+
+
+.progress-container {
+  top: 5;
+  width: 100%;
+  height: 8px;
+  background: rgb(255, 255, 255);
+  position: fixed;
+  z-index:500;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background: rgb(255,217, 0);
+  width: 0%;
+}
+
+.projectdiv{
+  display: block;
+  margin: auto;
+  margin-top: 2rem;
+  justify-content: center;
+  width: 60%;
+  height: auto;
+  align-content:center;
+  background-color: white;
+  border-radius: 1rem;
+  padding-bottom: 1rem;
+  filter:drop-shadow( .5rem .5rem 1rem rgba(233, 233, 233))
+}
+
+.autoscroll{
+text-align:center;
+position: sticky;
+top:95%;
+background-color:rgb(255, 217, 0);
+font-size: bolder;
+z-index: 500;
+padding: 0.5rem 1rem;
+margin: auto;
+margin-top: 2rem;
+justify-content: center;
+display:block;
+}
+.autoscroll:hover, .autoscroll:active{
+  background-color: rgba(0,0,0);
+  font-size: bold;
+  color:rgb(255, 217, 0, 1);
+}
+
+.autoscroll > div{
+  display: inline-block;
+  flex-direction: column;
+}
+
+.moreInfo{
+  margin: 1.5rem;
+  display: block;
+  margin-bottom: 0;
+}
+.moreInfo > div >div {
+  border-radius: 1em;
+  border: 1px solid silver;
+  color: silver;
+  padding: .5em;
+  font-size: smaller;
+}
+.moreInfo > div  {
+  margin: 1em;
+}
+.lessInfo{
+  display: none;
+}
+.project-block{
+  display:inline;
+}
+.moreInfo > div{
+  display:block;
+}
+.project-details{
+  display:inline-flex;
+}
+
+.moreInfo > div>h4{
+  display:inline-block;
+  margin-right: 1rem;
+}
+.moreInfo > div > div{
+  display:inline-block;
+  margin-right: 1rem;
+}
+
+.project, .description{
+  display:inline-block;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+.projectdiv img{
+  border-radius: 1rem 1rem 0 0;
+  width: 100%;
+}
+.Coding{
+  justify-content: center;
+  margin: 1rem 1rem 0 1rem;
+  width: auto;
+  display:flex;
+  flex-direction: column;
+}
+.coding-link {
+padding: .5rem 1rem;
+margin: auto;
+justify-content: center;
+display: inline-block;
+text-align: center;
+background-color: rgb(255, 238, 0);
+border-radius: 5rem;
+}
+.coding-link:hover, .coding-link:active{
+  background-color: black;
+  color: rgb(255, 217, 0);
+}
+.Design{
+  display: flex;
+  flex-direction: column;
+}
+
+.Design *{
+  text-align: center;
+}
+.doodle{
+  justify-content: center;
+  margin:auto;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.portfolio{
+  padding: .5rem 1rem;
+  justify-content: center;
+  background-color:rgb(255, 238, 0);
+  display: block;
+  color:black;
+  margin: auto;
+  margin-top: 1.5rem;
+  border-radius: 5rem;
+}
+
+.Design a:hover, .Design a:active{
+  background-color: black;
+  color:rgb(255, 217, 0);
+}
+
+.portfolio :hover, .portfolio :active{
+  background-color: black;
+  color: rgb(255, 217, 0);
+}
+
+.doodle{
+  width: 40vw;
+  height: auto;
+  display: block;
+  margin-top: 2rem;
+}
+.coding-link :hover, .conding-link :active{
+  padding: .5rem 1rem;
+  border-radius: 5rem;
+  justify-content: center;
+  display:flex;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  color:rgb(255, 238, 0);
+  }
+
+.project-heading{
+  display: block;
+  justify-content: space-between;
+}
+
+.info-icon{
+  display:inline;
+  justify-self: flex-end;
+  margin-right: .5rem;
+}
+
+@media only screen and (min-width: 901px){
+  .intro, .intro2{
+    font-size: 5rem;
+  }
+  .content{
+    margin-left: 7rem;
+    margin-top: 4rem;
+  }
+  .misc *{ 
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    height: 2rem;
+    width: 2rem;
+  }
+  .typing > p, .typing > h4{
+    font-size: 3rem;
+  }
+  .cred :nth-child(1){
+    margin-right: 1.5rem;
+  }
+
+  .content2-subdiv{
+    display: inline-flex;
+    flex-direction: column;
+  }
+  .profilepic{
+    max-width: 40vw;
+    min-width: 35vw;
+    height:auto;
+    display: inline-flex;
+    margin-right: 3rem;
+  }
+
+  .header-me{
+    font-size: 3rem;
+  }
+
+  .summary{
+    width: 45vw;
+    height: auto;
+    display: inline-flex;
+  }
+  .pic-summary{
+    display:inline-flex;
+    flex-direction: flex;
+    height:auto;
+    margin-bottom: 2rem;
+  }
+  .pic-summary :nth-child(2){
+    margin-bottom:1.5rem;
+  }
+  .contactpic{
+    width: 50vw;
+    height: auto;
+    margin-right: 2rem;
+    display: inline-block;
+    padding-bottom: 350px
+  }
+  .content3 form{
+    display: inline-flex;
+  }
+  .honey, ._autoresponse {
+    display:none;
+  }
+  .content3 input{
+    display: block;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 4px;
+    margin: none;
+  }
+  .text-div{
+    display: inline-flex;
+  }
+  .projectdiv{
+    width: 60vw;
+  }
+}
+@media only screen and (min-width: 717px) and (max-width: 900px){
+  .content{
+    margin-left: 6.5rem;
+  }
+  .intro, .intro2 {
+    font-size: 3rem
+  }
+  .misc * {
+    margin-right:1rem;
+    margin-bottom:2rem;
+    margin-top: 1rem;
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  .misc a{
+    padding: 0.25rem;
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .cred >a{
+    margin-right: 1.5rem;
+  }
+
+  .profilepic{
+    max-width: 40vw;
+    min-width: 35vw;
+    height:auto;
+    display: block;
+    margin-right: 1.5rem;
+  }
+
+  .summary{
+    min-width: 40vw;
+    max-width: 45vw;
+    height: auto;
+    display: inline-flex;
+    margin-bottom: 1rem;
+  }
+  .pic-summary{
+    display:inline-flex;
+    flex-direction: flex;
+    height: auto;
+  }
+  .pic-summary :nth-child(2){
+    margin-bottom:1.5rem;
+  }
+  .header-me{
+    font-size: 2.5rem;
+    margin: auto;
+    width:auto;
+    margin-bottom: .5rem;
+    display: block;
+  }
+  .contactpic{
+    width: 50vw;
+    height: auto;
+    margin-right: 2rem;
+    display: inline-block;
+    padding-bottom: 800px
+  }
+  .text-div{
+    display: inline-flex;
+  }
+  .honey, ._autoresponse {
+    display:none;
+  }
+  .content3 input{
+    display: block;
+    padding: 10px;
+    border-radius: 1rem;
+    border: 3px solid black;
+    border-radius: 4px;
+    margin: none;
+  }
+  
+  }
+  
+@media only screen and (min-width: 633px) and (max-width: 716px){
+  .content{
+    margin-left: 6.5rem;
+  }
+  .intro, .intro2 {
+    font-size: 3rem
+  }
+  .misc * {
+    margin-right:1rem;
+    margin-bottom:2rem;
+    margin-top: 1rem;
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  .misc a{
+    padding: 0.25rem;
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .cred >a{
+    margin-right: 1.5rem;
+  }
+
+  .pic-summary{
+    display:block;
+    flex-direction: flex;
+    height: auto;
+  }
+  .pic-summary :nth-child(2){
+    margin-bottom: none;
+  }
+  .profilepic{
+    width: 50%; 
+    height:auto;
+    margin: auto;
+    margin-bottom: 1rem;
+    justify-content: center;
+    display: block;
+  }
+  .summary{
+    display: inline-block;
+    margin: 1rem 0;
+    width: clamp(20vw 35vw 60%);
+    text-align:center;
+    justify-content:center;
+  }
+
+  .header-me{
+    font-size: 2.5rem;
+    margin: auto;
+    width:auto;
+    margin-bottom: .5rem;
+    display: block;
+    text-align: center;
+  }
+  .abt-me-a{
+    display:inline-block;
+  }
+  .cred2{
+    margin:auto;
+    justify-content: center;
+    display: block;
+        align-content: center;
+        text-align: center;
+  }
+  .content2 a {
+    margin: .5rem .5rem 0 .5rem;
+    margin-bottom: none;
+    flex-direction: column;
+    display: inline-block;
+  }
+
+  .content3{
+  margin-bottom: .5rem;
+  margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+  .content3 h2{
+    margin:auto;
+    width: auto;
+    display: block;
+    text-align: center;
+  }
+  .contactpic{
+    width: 80%;
+    align-content: center;
+    margin: auto;
+    padding-bottom: 1rem;
+    display: block;
+    justify-content: center;
+  }
+  .contactform{
+    margin: 0 10%;
+  }
+  
+.content3{
+  margin-bottom: .5rem;
+  margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display:inline-block;
+}
+  .content3 p {
+    text-align:center;
+  }
+  .honey, ._autoresponse {
+    display:none;
+  }
+  .content3 input{
+    display: block;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 4px;
+    margin: none;
+  }
+}
+
+@media only screen and (max-width: 632px) and (min-width: 481px) {
+  .intro, .intro2 {
+    display:flex;
+    justify-content: center;
+    font-size: 2.8rem;
+  }
+  .misc{
+    display: flex;
+    justify-content: center;
+  }
+  .misc * {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  .misc a{
+    margin:1rem;
+    padding: .25rem;
+    width: 1rem;
+    height: auto;
+  }
+  .typing{
+    display: flex;
+    justify-content:center;
+    font-size: 2rem;
+  }
+  .cred{
+    display: flex;
+    justify-content :center;
+  }
+  .cred > a{
+    display: block;
+    margin: 1rem;
+  }
+  .content2{
+    display: inline-block;
+    flex-direction: row;
+    align-content: center;
+  }
+  .header-me{
+    font-size: 2rem;
+    margin: auto;
+    width:auto;
+    margin-bottom: .5rem;
+    display: block;
+    text-align: center;
+  }
+  .summary{
+    display: inline-block;
+    margin: 1rem 0;
+    width: clamp(20vw 35vw 40vw);
+    text-align:center;
+    justify-content:center;
+  }
+  .cred2{
+    margin:auto;
+    justify-content: center;
+    display: block;
+        align-content: center;
+        text-align: center;
+  }
+  .content2 a {
+    margin: .5rem .5rem 0 .5rem;
+    flex-direction: column;
+    display: inline-block;
+  }
+
+  .content3 h2{
+    margin:auto;
+    width: auto;
+    display: block;
+    text-align: center;
+  }
+  .contactpic{
+    width: 80%;
+    align-content: center;
+    margin: auto;
+    padding-bottom: 1rem;
+    display: block;
+    justify-content: center;
+  }
+  .contactform{
+    margin: 0 10%;
+  }
+  .honey, ._autoresponse {
+    display:none;
+  }
+  .content3 p {
+    text-align:center;
+  }
+  .content3 input{
+    display: block;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 4px;
+    margin: none;
+  }
+  .profilepic{
+    width: 50%; 
+    height:auto;
+    margin: auto;
+    margin-bottom: 1rem;
+    justify-content: center;
+    display: block;
+  }
+  .moreInfo > div > h4{
+    display: block;
+  }
+  .moreInfo > div >div {
+    border-radius: 1em;
+    border: 1px solid silver;
+    color: silver;
+    padding: .5em;
+    font-size: smaller;
+    display:inline-block;
+  }
+  .moreInfo > div  {
+    margin: 1em;
+    display:block;
+    justify-content: flex;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .typing p, .typing h4 {
+    font-size: 1.5rem;
+  }
+  .misc * {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  .misc a{
+    margin:1rem;
+    padding: .25rem;
+    width: 1rem;
+    height: auto;
+  }
+  .cred, .typing, .intro, .intro2, .misc{
+    display: flex;
+    justify-content :center;
+  }
+  .cred > a{
+    margin: .75em;
+  }
+    .profilepic{
+    width: 50%; 
+    height:auto;
+    margin: auto;
+    margin-bottom: 1rem;
+    justify-content: center;
+    display: block;
+  }
+  .header-me{
+    font-size: 1.8rem;
+    margin: auto;
+    width:auto;
+    margin-bottom: .5rem;
+    display: block;
+    text-align: center;
+  }
+  .content2{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+    .header-me{
+    font-size: 1.8rem;
+    margin: auto;
+    width:auto;
+    margin-bottom: .5rem;
+    display: block;
+    text-align: center;
+  }
+    .summary{
+    display: inline-block;
+    margin:1rem 0 ;
+    width: clamp(20vw 35vw 40vw);
+    text-align:center;
+    justify-content:center;
+  }
+  
+  .content2 a {
+    margin: .5rem .5rem 0 .5rem;
+    flex-direction: column;
+    display: inline-block;
+  }
+  .cred2{
+    margin:auto;
+    justify-content: center;
+    display: block;
+        align-content: center;
+        text-align: center;
+  }
+  .content3{
+    margin: 1rem;
+  }
+  .svg-div div h4{
+    font-size: .8rem;
+  }
+  .content3 h2{
+    margin:auto;
+    width: auto;
+    display: block;
+    text-align: center;
+  }
+  .contactpic{
+    width: 80%;
+    align-content: center;
+    margin: auto;
+    padding-bottom: 1rem;
+    display: block;
+    justify-content: center;
+  }
+  .contactform{
+    margin: 0 10%;
+  }
+  .honey, ._autoresponse {
+    display:none;
+  }
+  .content3 p {
+    text-align:center;
+  }
+  .content3 input{
+    display: block;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 4px;
+    margin: none;
+  }
+  .moreInfo > div > h4{
+    display: block;
+  }
+  .moreInfo > div >div {
+    border-radius: 1em;
+    border: 1px solid silver;
+    color: silver;
+    padding: .5em;
+    font-size: smaller;
+    display:inline-block;
+  }
+  .moreInfo > div  {
+    margin: 1em;
+    display:block;
+    justify-content: flex;
+  }
+  .projectdiv{
+    width: 90%;
+  }
+  .cred2 :nth-child(3){
+    margin-top: 1rem;
+  }
+  .autoscroll{
+    font-size: small;
+  }
+}
