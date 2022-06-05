@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6b194db6.css",
+    "main.js": "/static/js/main.fc903e38.js",
+    "static/js/787.6b37264f.chunk.js": "/static/js/787.6b37264f.chunk.js",
+    "static/media/profilepic.png": "/static/media/profilepic.cd71018e04fcdb88a7f8.png",
+    "static/media/GuessWho.png": "/static/media/GuessWho.09b375612602ff9fa9de.png",
+    "static/media/PlanetHack.png": "/static/media/PlanetHack.f94a6c927882f5f2c92f.png",
+    "static/media/William Lin Resume.pdf": "/static/media/William Lin Resume.80115d69dd7d8a829a4a.pdf",
+    "static/media/BrainGain.png": "/static/media/BrainGain.bcaad834ce8126afa190.png",
+    "static/media/potfolio-doodle.png": "/static/media/potfolio-doodle.0357d0486d617147a030.png",
+    "static/media/portfolio-illustration-contact.png": "/static/media/portfolio-illustration-contact.a974c450d4b14bea2c1a.png",
+    "static/media/notfound2.png": "/static/media/notfound2.d07e1d53183bf239c2f5.png",
+    "static/media/notfound1.png": "/static/media/notfound1.9398216778cd0a794374.png",
+    "static/media/notfound3.png": "/static/media/notfound3.6ea6a884b12e09a55fc2.png",
+    "static/media/ruby.svg": "/static/media/ruby.320ed4681bc48df897b0ed0ff4b00559.svg",
+    "static/media/postgresql.svg": "/static/media/postgresql.ae92b576b8ea41666538c0756df27969.svg",
+    "static/media/rails.svg": "/static/media/rails.5617556fb89b0b1789100fe30b0b8a69.svg",
+    "static/media/java-4.svg": "/static/media/java-4.a351f739f47fda7a637b86ffa530d56a.svg",
+    "static/media/react-2.svg": "/static/media/react-2.e68b35f4774979ae220b1d5d7b345b00.svg",
+    "static/media/github-icon-1.svg": "/static/media/github-icon-1.e0d7d7254ac0545743fc7af09c1e977b.svg",
+    "static/media/adobe-creative-cloud-cc.svg": "/static/media/adobe-creative-cloud-cc.b4a0a54e3a16592133e1637511884382.svg",
+    "static/media/photoshop-cc-7.svg": "/static/media/photoshop-cc-7.2b2f2e168dcc5d7031fdfbb52c664c37.svg",
+    "static/media/adobe-illustrator-cc-2019.svg": "/static/media/adobe-illustrator-cc-2019.5145269be35de1ae77a16bcb0d1e43aa.svg",
+    "static/media/python-5.svg": "/static/media/python-5.e6d7dc739a91892bbf1f6262412046dd.svg",
+    "index.html": "/index.html",
+    "static/media/css-3.svg": "/static/media/css-3.4e47c3122b8d2476a02f97dcfcb28640.svg",
+    "static/media/adobe-animate.svg": "/static/media/adobe-animate.9a8a273df2ece952c0f168483e5d9900.svg",
+    "static/media/html-1.svg": "/static/media/html-1.f318c8b1d5945fa9adc827ae94849cb1.svg",
+    "static/media/javascript-1.svg": "/static/media/javascript-1.b879f838faf1cb951d1c2230fd933a39.svg",
+    "static/media/heroku-4.svg": "/static/media/heroku-4.b7e7f910d905c15ac7d6cca770ba02b0.svg",
+    "main.6b194db6.css.map": "/static/css/main.6b194db6.css.map",
+    "main.fc903e38.js.map": "/static/js/main.fc903e38.js.map",
+    "787.6b37264f.chunk.js.map": "/static/js/787.6b37264f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b194db6.css",
+    "static/js/main.fc903e38.js"
+  ]
+}
