@@ -14,13 +14,13 @@ function Home(props) {
 				</div>
 				<div className = "misc">
 					<a href={'https://www.github.com/Gloompowder'} target="_blank" rel="noreferrer"> <BsGithub/></a>
-					<a href={'https://www.redbubble.com/people/Gloompowder/shop'} target="_blank" rel="noreferrer"> <BsShop /></a>
+					<a href={'https://studiogloomlinks.vercel.app/'} target="_blank" rel="noreferrer"> <BsShop /></a>
 					<a href={'https://medium.com/@will-lin'} target="_blank" rel="noreferrer"> <BsMedium/></a>
 					{/* <a href={'https:/www.twitter.com/gloompowder'} target="_blank" rel="noreferrer"> <BsTwitter/></a> */}
 				</div>
 				<div className= "cred">
 					<a href={Pdf} target="_blank" rel="noreferrer" className = "cv">Resume </a>
-					<a href="https://www.linkedin.com/in/williamlincodeanddesign/" target="blank" rel="noreferrer" className = "linkedin">LinkedIn</a>
+					<a href="https://www.linkedin.com/in/wl96/" target="blank" rel="noreferrer" className = "linkedin">LinkedIn</a>
 				</div>
 			</div>
 			</div>

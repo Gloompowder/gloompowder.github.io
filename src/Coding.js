@@ -35,13 +35,6 @@ function Coding(props) {
             devops:"",
             image:GuessWho,
             demo:"https://youtu.be/hEf_WQFApS4"
-        }},
-        {"SiloLinks":{
-            description:"A linkinbio alternative for Silo Pods. Silopods is a rentable private, soundproof space in public.",
-            frontend:["React, Javascript"],
-            backend:"",
-            devops:"",
-            demo:"https://www.silolinks.heroku.app"
         }}
     ]
 

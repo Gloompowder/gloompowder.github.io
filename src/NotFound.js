@@ -26,7 +26,7 @@ function NotFound() {
                 {quote}
                 <Link className= "home-redirect" to="/" >Home</Link>
                 <a href={Pdf} target="_blank" rel="noreferrer" className = "cv">Resume </a>
-					<a href="https://www.linkedin.com/in/williamlincodeanddesign/" target="blank" rel="noreferrer" className = "linkedin">LinkedIn</a>
+					<a href="https://www.linkedin.com/in/wl96/" target="blank" rel="noreferrer" className = "linkedin">LinkedIn</a>
             </div>
         </div>
     );

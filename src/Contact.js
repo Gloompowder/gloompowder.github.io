@@ -7,12 +7,12 @@ import contactdoodle from './images/portfolio-illustration-contact.png'
 
 function Contact(props) {
     
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
-  const [cc, setCC] = useState("");
-  const [honey, setHoney] = useState("");
-  const [message, setMessage] = useState("");
+  const [name, setName] = useState();
+  const [email, setEmail] = useState();
+  const [subject, setSubject] = useState();
+  const [cc, setCC] = useState();
+  const [honey, setHoney] = useState();
+  const [message, setMessage] = useState();
 
   const messageSmall = () =>{
     console.log(props.width)
@@ -25,7 +25,7 @@ function Contact(props) {
         <h2>Contact</h2>
         <p fontWeight= 'bold'>Thanks for viewing, let's stay in touch!</p>
                     <div className= 'text-div'>
-        <img className='contactpic' src = {contactdoodle} alt= "William Lin Profile"/>
+        <img className='contactpic' src="" alt= "William Lin Profile"/>
 
         <form action="https://formsubmit.co/willlin1996@gmail.com" method="POST" className="contactform">
       <label>Name
@@ -59,7 +59,7 @@ function Contact(props) {
       </label>
       <label>CC
         <input
-        name='text'
+        name = 'text'
           type="text" 
           value={cc}
           onChange={(e) => setCC(e.target.value)}
